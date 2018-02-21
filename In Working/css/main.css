@@ -394,4 +394,20 @@ body {
     .filter-list__link:hover [class*="icon-"]:before {
       color: #979797; }
 
+.sidebar {
+  width: 240px;
+  padding: 0 30px; }
+
+.accordion__head {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 /*# sourceMappingURL=main.css.map */
