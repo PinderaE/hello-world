@@ -353,6 +353,24 @@
     width: 240px;
     padding: 0 30px;
     
+    &-list{
+        
+        label {
+            margin-left: 10px;
+            font-size: 12px;
+            line-height: 2;
+        }
+        &__item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        
+        
+    }
 }
 
 .accordion__head{
@@ -360,10 +378,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 
-
+.size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .sidebar-list__item{
+    width: 40%;
+    }
+}
 
 
 

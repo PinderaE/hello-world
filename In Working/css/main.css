@@ -397,6 +397,20 @@ body {
 .sidebar {
   width: 240px;
   padding: 0 30px; }
+  .sidebar-list label {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 2; }
+  .sidebar-list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px; }
+    .sidebar-list__item:last-child {
+      margin-bottom: 0; }
 
 .accordion__head {
   height: 70px;
@@ -408,6 +422,22 @@ body {
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  cursor: pointer; }
+
+.size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .size .sidebar-list__item {
+    width: 40%; }
 
 /*# sourceMappingURL=main.css.map */

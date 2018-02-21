@@ -8,7 +8,7 @@ $(function(){
 	});
 
 
-
+    $('.styler').styler();
 
 });
 
