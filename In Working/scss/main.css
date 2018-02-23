@@ -361,11 +361,30 @@ body {
 .sidebar {
   width: 240px;
   padding: 0 30px; }
+  .sidebar-list label {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 2; }
+  .sidebar-list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; }
+    .sidebar-list__item:last-child {
+      margin-bottom: 0; }
 
 .accordion__head {
   height: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  cursor: pointer; }
+
+.size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .size .sidebar-list__item {
+    width: 40%; }
 
 /*# sourceMappingURL=main.css.map */
