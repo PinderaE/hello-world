@@ -7,7 +7,9 @@ $(function(){
 	});
 
 
-    $('.styler').styler();
+    $('.styler').styler({
+        selectPlaceholder: 'Size',
+    });
     
     
     $( "#slider-range" ).slider({
